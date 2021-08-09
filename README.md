@@ -1,14 +1,10 @@
-# feedback
-
-> A plugin for [Oh My Fish](https://www.github.com/oh-my-fish/oh-my-fish).
-
 [![GPL License](https://img.shields.io/badge/license-GPL-blue.svg?longCache=true&style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.0.1-blue.svg?style=flat-square)](https://fishshell.com)
 [![Oh My Fish Framework](https://img.shields.io/badge/Oh%20My%20Fish-Framework-blue.svg?style=flat-square)](https://www.github.com/oh-my-fish/oh-my-fish)
 
-<br/>
+# feedback
 
-## Description
+> A plugin for [Oh My Fish](https://www.github.com/oh-my-fish/oh-my-fish).
 
 Display feedback and diagnostic messages - that is, messages that are printed to [stderr](https://www.jstorimer.com/blogs/workingwithcode/7766119-when-to-use-stderr-instead-of-stdout) and, as such, are not part of s program's output - stylized through [control characters](https://en.m.wikipedia.org/wiki/Control_character). Text placed between pipe characters, i.e. `|`, will be displayed in **bold**. Messages come in the following flavors:
 
@@ -77,7 +73,7 @@ If `-e` is used, the following sequences are recognized:
 ## Install
 
 ```fish
-omf repositories add https://gitlab.com/argonautica/argonautica 
+omf repositories add https://gitlab.com/argonautica/argonautica
 omf install feedback
 ```
 
