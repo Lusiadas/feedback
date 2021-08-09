@@ -26,7 +26,7 @@ Display feedback and diagnostic messages - that is, messages that are printed to
 
 [![asciicast](https://asciinema.org/a/Ce7HtwnyTpd8uchjrch1WmUmJ.png)](https://asciinema.org/a/Ce7HtwnyTpd8uchjrch1WmUmJ)
 
-## SYNTAX
+## Syntax
 
 ```
 [win/err/wrn/dim/reg] [-nsEeh] [MESSAGE]
@@ -84,7 +84,3 @@ omf install feedback
 ## Dependencies
 
 Plugin [contains_opts](https://gitlab.com/lusiadas/contains_opts). If not installed, it'll be installed together with `feedback`.
-
----
-
-Ⓐ Made in Anarchy. No wage slaves were economically coerced into the making of this work.
